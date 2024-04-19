@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --font-padrao: 'Inter';
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-padrao);
+}
+
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    justify-content: space-around;
+}
+
+#principal{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(213, 221, 223);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #bababa;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#principal #menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#principal #menu a{
+    margin-left: 80px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-padrao);
+    font-weight: 800;
+}
+
+#principal #logo{
+    padding-right: 80px;
+}
+
+#principal #logo img{
+    height: 100px;
+    border-radius: 50%;
+}
+
+#sobre{
+    width: 100%;
+    /*background-color: aquamarine;*/
+    height: 500px;
+    display: flex;
+    text-align: center;
+}
+
+#sobre #sobreText{
+    /*background-color: aqua;*/
+    padding-top: 200px;
+}
+
+#sobre #sobreText h1{
+    font-weight: 800;
+}
+
+#sobre #sobreText p{
+    font-weight: 500;
+}
+
+#sobre #sobreImg{
+    padding-top: 8px;
+}
+
+#servicos{
+    border-bottom: 3px solid #bababa;
+    border-top: 3px solid #bababa;
+}
+
+.services{
+    padding-top: 22px;
+    background-color: rgb(213, 221, 223);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.services img{
+    height: 50px;
+}
+
+#localizacao{
+    display: flex;
+    align-items: center;
+
+}
+
+#localTitulo{
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#localText{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 30px;
+    text-align: justify;
+    max-width: 600px;
+    padding-left: 20px;
+}
+
+#localText a{
+    text-decoration: none;
+    color: black;
+}
+
+#maps{
+    padding: 30px;
+}
+
+#contato{
+    margin: 40px;
+    text-align: center;
+}
+
+.contatos img{
+    height: 50px;
+}
+
+.contatos a{
+    text-decoration: none;
+    color: black;
+}
+
+#horario{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
