@@ -144,3 +144,68 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    /* MENU */
+    #principal{
+        flex-direction: column;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    #principal #menu{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    #principal #menu a{
+        padding-top: 20px;
+        text-align: center;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    #principal #logo{
+        padding-right: 0px;
+    }
+
+    /* SOBRE */
+
+    #sobre{
+        flex-direction: column-reverse;
+    }
+
+    #sobre #sobreText{
+        padding-top: 0px;
+    }
+
+    #sobre #sobreImg img{
+        height: 300px;
+    }
+
+    /* LOCAL */
+
+    #localizacao{
+        flex-direction: column-reverse;
+    }
+
+    #localizacao #maps{
+        text-align: center;
+    }
+
+    #localizacao #maps img{
+        width: 90%;
+    }
+
+    #localText{
+        font-weight: 600;
+        font-size: 16px;
+        margin: 0px 30px 15px 30px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+}
